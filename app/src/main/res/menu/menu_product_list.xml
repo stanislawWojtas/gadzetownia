@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/ic_sync"
+        android:title="@string/action_sync"
+        app:showAsAction="always" />
+
+    <!-- Tylko build debug (widoczność ustawiana w ProductListFragment) -->
+    <group android:id="@+id/group_debug">
+        <item
+            android:id="@+id/menu_api_mode"
+            android:title="@string/debug_api_mode"
+            app:showAsAction="never">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/api_remote"
+                        android:title="@string/debug_api_remote" />
+                    <item
+                        android:id="@+id/api_assets"
+                        android:title="@string/debug_api_assets" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu_chaos"
+            android:title="@string/debug_chaos"
+            app:showAsAction="never">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/chaos_none"
+                        android:title="@string/debug_chaos_none" />
+                    <item
+                        android:id="@+id/chaos_503"
+                        android:title="@string/debug_chaos_503" />
+                    <item
+                        android:id="@+id/chaos_timeout"
+                        android:title="@string/debug_chaos_timeout" />
+                    <item
+                        android:id="@+id/chaos_no_network"
+                        android:title="@string/debug_chaos_no_network" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

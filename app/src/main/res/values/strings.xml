@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gadżetownia</string>
+
+    <!-- Lista -->
+    <string name="action_sync">Synchronizuj</string>
+    <string name="chip_all">Wszystkie</string>
+    <string name="empty_list">Brak produktów. Kliknij Synchronizuj, aby pobrać katalog.</string>
+    <string name="retry">Ponów</string>
+    <string name="discount_format">−%1$.0f%%</string>
+    <string name="rating_format">★ %1$.1f</string>
+
+    <!-- Status synchronizacji -->
+    <string name="sync_idle_never">Jeszcze nie synchronizowano</string>
+    <string name="sync_idle_last">Ostatnia synchronizacja: %1$s (%2$s)</string>
+    <string name="sync_waiting">Czekam na połączenie z siecią…</string>
+    <string name="sync_running">Synchronizuję…</string>
+    <string name="sync_retrying">Błąd, ponowię próbę (próba %1$d)</string>
+    <string name="sync_failed">Synchronizacja nie powiodła się: %1$s</string>
+
+    <!-- Polska odmiana liczebników: wybór formy w Formatters.polishPlural (niezależnie od języka urządzenia) -->
+    <string name="products_one">%1$d produkt</string>
+    <string name="products_few">%1$d produkty</string>
+    <string name="products_many">%1$d produktów</string>
+    <string name="sync_succeeded">Zsynchronizowano %1$s o %2$s</string>
+
+    <!-- Szczegóły -->
+    <string name="details_offline">Pełny opis dostępny po połączeniu z siecią</string>
+    <string name="details_retry">Spróbuj ponownie</string>
+    <string name="brand_format">Marka: %1$s</string>
+    <string name="no_brand">brak</string>
+    <string name="stock_format">Na stanie: %1$d szt. (%2$s)</string>
+    <string name="back">Wstecz</string>
+
+    <!-- Menu debug -->
+    <string name="debug_api_mode">Źródło danych</string>
+    <string name="debug_api_remote">Prawdziwe API (REMOTE)</string>
+    <string name="debug_api_assets">Pliki z assets (OFFLINE_ASSETS)</string>
+    <string name="debug_chaos">Chaos</string>
+    <string name="debug_chaos_none">Brak (NONE)</string>
+    <string name="debug_chaos_503">Błąd serwera 503 (HTTP_503)</string>
+    <string name="debug_chaos_timeout">Timeout (TIMEOUT)</string>
+    <string name="debug_chaos_no_network">Brak sieci (NO_NETWORK)</string>
+</resources>

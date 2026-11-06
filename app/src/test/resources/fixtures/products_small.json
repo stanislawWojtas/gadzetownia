@@ -1,0 +1,34 @@
+{
+ "products": [
+  {
+   "id": 1,
+   "title": "Essence Mascara Lash Princess",
+   "price": 9.99,
+   "discountPercentage": 10.48,
+   "rating": 2.56,
+   "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+   "category": "beauty"
+  },
+  {
+   "id": 2,
+   "title": "Eyeshadow Palette with Mirror",
+   "price": 19.99,
+   "discountPercentage": 18.19,
+   "rating": 2.86,
+   "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+   "category": "beauty"
+  },
+  {
+   "id": 3,
+   "title": "Powder Canister",
+   "price": 14.99,
+   "discountPercentage": 9.84,
+   "rating": 4.64,
+   "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+   "category": "beauty"
+  }
+ ],
+ "total": 194,
+ "skip": 0,
+ "limit": 3
+}
